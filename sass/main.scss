@@ -38,7 +38,9 @@ body {
     }
 
     &:hover {
-        .burger-btn__bars::after, .burger-btn__bars::before {
+
+        .burger-btn__bars::after,
+        .burger-btn__bars::before {
             width: 100%;
         }
     }
@@ -67,7 +69,95 @@ body {
         &::before {
             top: 27px;
             width: 30%;
-            transition-delay: .1s; 
+            transition-delay: .1s;
+        }
+    }
+}
+
+
+// HEADER
+
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    height: 75vh;
+    text-align: center;
+    color: $pure-white;
+    @include heroImages('../img/mainphoto_640.jpg');
+    background-attachment: scroll;
+
+    &__heading {
+        font-size: 4.8rem;
+        font-weight: 300;
+    }
+
+    &__text {
+        font-size: 1.4rem;
+
+
+    }
+
+    &__btn {
+        background: $pure-white;
+        margin-top: 2em;
+        padding: 0.8em 1.6em;
+        font-size: 1.4rem;
+        background-color: $pure-white;
+        border: none;
+        border-radius: 8px;
+        color: $dark;
+        text-decoration: none;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    &::before {
+        background-color: $light-white;
+    }
+}
+
+
+// ===============================
+// MEDIA
+// ===============================
+
+
+@media(min-width: 768px) {
+    .white-block {
+        height: 50px;
+        width: 50px;
+    }
+
+    .header {
+        &__heading {
+            font-size: 6.6rem;
+        }
+
+        &__text {
+            font-size: 2.2rem;
+        }
+
+        &__btn {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+@media(min-width: 992px) {
+    .burger-btn {
+        top: 30px;
+        right: 30px;
+    }
+
+    .header {
+        background-image: $blue-gradient, url('/img/mainphoto_1920.jpg');
+
+        &__heading {
+            font-size: 8rem;
         }
     }
 }
