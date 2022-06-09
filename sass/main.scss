@@ -75,6 +75,53 @@ body {
 }
 
 
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    transform: translateX(100%);
+    transition: .5s cubic-bezier(0.65, 0.05, 0.36, 1);
+    background-image: $blue-gradient-solid;
+    z-index: 100;
+
+    &--active {
+        transform: translateX(0);
+    }
+
+    &__item {
+        position: relative;
+        display: block;
+        color: $pure-white;
+        margin: .5em 0;
+        font-size: 2.8rem;
+        padding: 0.5em 2em;
+        text-decoration: none;
+
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 3px;
+            height: 100%;
+            background-color: $pure-white;
+            content: '';
+            transform: scaleY(0);
+            transition: transform .3s;
+        }
+
+        &:hover::before {
+            transform: scaleY(.5);
+        }
+    }
+
+
+}
+
+
 // HEADER
 
 .header {
@@ -86,6 +133,7 @@ body {
     padding: 2em;
     height: 75vh;
     text-align: center;
+    letter-spacing: 2px;
     color: $pure-white;
     @include heroImages('../img/mainphoto_640.jpg');
     background-attachment: scroll;
