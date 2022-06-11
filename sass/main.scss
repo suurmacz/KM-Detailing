@@ -85,7 +85,7 @@ body {
     width: 100%;
     transform: translateX(100%);
     transition: .5s cubic-bezier(0.65, 0.05, 0.36, 1);
-    background-image: $blue-gradient-solid;
+    background-image: $black-gradient-solid;
     z-index: 100;
 
     &--active {
@@ -135,8 +135,21 @@ body {
     text-align: center;
     letter-spacing: 2px;
     color: $pure-white;
-    @include heroImages('../img/mainphoto_640.jpg');
     background-attachment: scroll;
+
+    &__video {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        transform: translateX(calc((100% - 100vw) / 2));
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        z-index: -1;
+        opacity: 1;
+    }
 
     &__heading {
         font-size: 4.8rem;
@@ -192,14 +205,14 @@ body {
 }
 
 @media(min-width: 992px) {
-    
+
     .burger-btn {
         top: 30px;
         right: 30px;
     }
 
     .header {
-        background-image: $blue-gradient, url('/img/mainphoto_1920.jpg');
+        // background-image: $blue-gradient, url('/img/mainphoto_1920.jpg');
 
         &__heading {
             font-size: 8rem;
