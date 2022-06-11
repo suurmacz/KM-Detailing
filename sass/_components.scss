@@ -7,8 +7,10 @@
 .white-block {
     position: absolute;
     height: 40px;
-    width: 60%;
+    width: 100%;
     background-color: $pure-white;
+    border-radius: 0 5px 0 0;
+    z-index: 5;
 
     &-left {
         bottom: 0;

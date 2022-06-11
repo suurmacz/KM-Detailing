@@ -175,10 +175,6 @@ body {
 
 
 @media(min-width: 768px) {
-    .white-block {
-        height: 50px;
-        width: 50px;
-    }
 
     .header {
         &__heading {
@@ -196,6 +192,7 @@ body {
 }
 
 @media(min-width: 992px) {
+    
     .burger-btn {
         top: 30px;
         right: 30px;
@@ -208,4 +205,5 @@ body {
             font-size: 8rem;
         }
     }
+
 }
