@@ -4,11 +4,11 @@
     max-width: 1200px;
 }
 
-.white-block {
+.skew-block {
     position: absolute;
     height: 40px;
     width: 100%;
-    background-color: $pure-white;
+    background-color: $dark;
     border-radius: 0 5px 0 0;
 
     &-left {
@@ -54,17 +54,17 @@
 
 .section-heading {
     position: relative;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-    color: $main-color;
+    color: $pure-white;
     letter-spacing: 2px;
 }
 
 .section-padding {
-    padding: 6em 2em;
+    padding: 4em 2em;
 }
 
 @media(min-width: 768px) {

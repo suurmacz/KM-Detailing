@@ -177,17 +177,22 @@ body {
     }
 
     &::before {
-        background-color: $light-white;
+        background-color: $pure-white;
     }
 }
 
 // MAIN SECTION
 
+main {
+    background-color: $dark;
+}
+
 .dreams {
     &__box {
         display: flex;
         flex-direction: column;
-        margin: 2em 0;
+        margin: 3em 0;
+        color: $pure-white;
     }
 
     &__img {
@@ -198,6 +203,7 @@ body {
     &__title {
         font-size: 2rem;
         margin-bottom: 0.5em; 
+
     }
 
     &__text {
@@ -276,7 +282,6 @@ body {
     }
 
     .header {
-        // background-image: $blue-gradient, url('/img/mainphoto_1920.jpg');
 
         &__heading {
             font-size: 8rem;
@@ -291,13 +296,13 @@ body {
 
     .dreams {
         &__box {
-            margin: 5em 0; 
+            margin: 4em 0; 
 
             &-text {
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-end;
-                margin-bottom: 2.5em;
+                margin-bottom: 4.5em;
             }
         }
 
