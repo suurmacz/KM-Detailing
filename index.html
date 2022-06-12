@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/af9225b973.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/main.min.css">
 </head>
 
@@ -32,7 +33,7 @@
 
     <header class="header section">
         <video autoplay muted loop plays-inline class="header__video">
-            <source src="/img/bgvideo.mp4" type="video/mp4">
+            <source src="/img/bgvideo2.mp4" type="video/mp4">
         </video>
         <h1 class="header__heading">KM Deataling</h1>
         <p class="header__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -68,9 +69,38 @@
                 </div>
             </div>
         </section>
+
+        <section class="hero-img section">
+            <div class="skew-block skew-block-left"></div>
+            <div class="skew-block skew-block-right"></div>
+            <p class="hero-img__title">washing</p>
+            <hr>
+            <p class="hero-img__text">Lorem ipsum dolor sit amet.</p>
+            <hr>
+        </section>
     </main>
 
+    <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="/img/slidercar1_1280.jpg.jpg" alt="car1"></div>
+                <div class="swiper-slide"><img src="/img/slidercar2_1280.jpg.jpg" alt="car2"></div>
+                <div class="swiper-slide"><img src="/img/slidercar3_1280.jpg.jpg" alt="car3"></div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
     <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
 </html>
