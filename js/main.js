@@ -13,7 +13,4 @@ const handleNav = () => {
 }
 
 
-
-
-
 navBtn.addEventListener('click', handleNav)

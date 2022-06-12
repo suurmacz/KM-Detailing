@@ -240,25 +240,19 @@ main {
 
 // SLIDER GALLERY
 
-.container {
-    padding: 3em 2em;
-    width: 100%;
-    height: 100vh;
-    background: $dark;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.carousel {
+    padding: 4em 2em;
+    background-color: $dark;
 
-
-}
-
-.swiper {
-    width: 80%;
-    height: fit-content;
-}
-
-.swiper-slide img {
-    width: 100%;
+    &__heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $pure-white;
+    }
+    &__text {
+        font-size: 2.2rem;
+    }
 }
 
 // ===============================
@@ -331,6 +325,7 @@ main {
         
         hr {
             margin: 0 auto;
+            padding: 2em;
             width: 70%;
         }
 
@@ -342,6 +337,15 @@ main {
     .hero-img {
         @include heroImages('/img/herocar_1920.jpg');
     }
+
+    .carousel {
+        padding: 4em 2em;
+    
+        &__text {
+            font-size: 2.2rem;
+        }
+    }
+
 }
 
 @media(min-width: 992px) {
@@ -393,6 +397,23 @@ main {
         }
 
         hr {
+            padding: 2em;
+            width: 60%;
+        }
+    }
+
+    .carousel {
+        margin: 0 auto;
+        
+    .carousel {
+        padding: 4em 2em;
+    
+        &__text {
+            font-size: 3.2rem;
+        }
+    }
+
+        &-carousel, .slide {
             width: 60%;
         }
     }
