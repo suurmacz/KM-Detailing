@@ -247,7 +247,7 @@ main {
 
 .hero-img {
     position: relative;
-    padding: 10em 2em;
+    padding: 20em 2em;
     @include heroImages("/img/herocar_640.jpg");
     text-align: center;
     overflow: hidden;
@@ -265,7 +265,7 @@ main {
 // SLIDER GALLERY
 
 .carousel {
-    padding: 4em 2em;
+    padding: 6em 2em;
     background-color: $dark;
 
     &__heading {
@@ -295,7 +295,7 @@ main {
         justify-content: space-around;
         align-content: center;
         color: $pure-white;
-        max-width: 80%;
+        // max-width: 80%;
 
     }
 }
@@ -316,11 +316,21 @@ hr {
     }
 }
 
-.footer__box-media {
+.footer__box {
     font-size: 2rem;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+
+    &-link {
+        padding: 1em;
+        color: $pure-white;
+        justify-content:space-around;
+    }
+}
+
+.contact-icons {
+    margin-top: 2em;
+    font-size: 1.2rem;
 }
 
 .footer__copy {
@@ -329,6 +339,11 @@ hr {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.google-maps-frame {
+    min-width: 400px;
+    max-width: 50%;
 }
 
 
