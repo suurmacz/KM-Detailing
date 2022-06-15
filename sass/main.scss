@@ -255,7 +255,7 @@ main {
 .hero-img {
     position: relative;
     padding: 20em 2em;
-    @include heroImages("./img/herocar_640.jpg");
+    @include heroImages('./img/mainphoto_640.jpg');
     text-align: center;
     overflow: hidden;
     z-index: 5;
@@ -481,9 +481,13 @@ hr {
     }
 
     .nav {
-        &__item {
-            font-size: 4.2rem;
+        width: 20%;
+        transform: translateX(500%);
+    
+        &--active {
+            transform: translateX(400%);
         }
+    
     }
 
     .dreams {
