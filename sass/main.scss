@@ -89,7 +89,7 @@ a:hover {
     width: 100%;
     transform: translateX(100%);
     transition: .5s cubic-bezier(0.65, 0.05, 0.36, 1);
-    background-image: $black-gradient-solid;
+    background-image: $dark-gradient;
     z-index: 100;
 
     &--active {
@@ -184,10 +184,16 @@ a:hover {
         opacity: 1;
     }
 
-    &__heading {
+    &__logo-img {
+        font-size: 10rem;
+    }
+
+    &__logo-heading {
         font-size: 4.8rem;
         font-weight: 500;
         letter-spacing: .1em;
+        margin-top: 5em;
+        text-transform: uppercase;
     }
 
     &__text {
@@ -243,14 +249,16 @@ main {
 }
 
 
+
 // HERO IMAGE
 
 .hero-img {
     position: relative;
     padding: 20em 2em;
-    @include heroImages("/img/herocar_640.jpg");
+    @include heroImages("./img/herocar_640.jpg");
     text-align: center;
     overflow: hidden;
+    z-index: 5;
 
     &__title {
         margin-bottom: 0.5em;
@@ -325,6 +333,23 @@ hr {
         padding: 1em;
         color: $pure-white;
         justify-content:space-around;
+    }
+
+    &-link:first-child {
+        text-decoration: none;
+        text-align: center;
+        background-color: $pure-white;
+        color: $dark;
+        border-radius: 30px;
+        padding: 0.1em 1em;
+        margin: 0.1em;
+        font-size: 1.6rem;
+        transition: background-color .3s;
+
+        &:hover {
+            background-color: goldenrod;
+            color: $pure-white;
+        }
     }
 }
 
@@ -428,7 +453,7 @@ hr {
     }
 
     .hero-img {
-        @include heroImages('/img/herocar_1920.jpg');
+        @include heroImages('./img/herocar_1920.jpg');
     }
 
     .carousel {
