@@ -319,7 +319,7 @@ hr {
 .footer__box {
     font-size: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     &-link {
         padding: 1em;
@@ -344,6 +344,12 @@ hr {
 .google-maps-frame {
     min-width: 400px;
     max-width: 50%;
+}
+
+.footer__adress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
