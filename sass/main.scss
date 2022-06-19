@@ -183,22 +183,28 @@ a:hover {
         z-index: -1;
         opacity: 1;
     }
+    
 
-    &__logo-img {
-        font-size: 10rem;
+    &__block {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        &__text {
+            position: absolute;
+            font-size: 2.2rem;
+            font-weight: 600;
+            top: 0;
+            left: 0;
+            margin: 0 auto;
+            z-index: 6;
+        }
     }
 
-    &__logo-heading {
-        font-size: 4.8rem;
-        font-weight: 500;
-        letter-spacing: .1em;
-        margin-top: 5em;
-        text-transform: uppercase;
-    }
 
-    &__text {
-        font-size: 1.4rem;
-    }
 
     &__btn {
         background: $pure-white;
@@ -225,7 +231,7 @@ main {
     background-color: $dark;
 }
 
-.dreams {
+.about {
     &__box {
         display: flex;
         flex-direction: column;
@@ -318,7 +324,7 @@ hr {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    
+
     &-contact {
         padding: 1em;
     }
@@ -332,7 +338,7 @@ hr {
     &-link {
         padding: 1em;
         color: $pure-white;
-        justify-content:space-around;
+        justify-content: space-around;
 
     }
 
@@ -388,7 +394,7 @@ hr {
 
 
 
-    .dreams {
+    .about {
         &__box {
             flex-direction: row;
             justify-content: space-between;
@@ -439,7 +445,7 @@ hr {
         }
     }
 
-    .dreams {
+    .about {
         &__text {
             font-size: 1.8rem;
         }
@@ -485,14 +491,14 @@ hr {
     .nav {
         width: 20%;
         transform: translateX(500%);
-    
+
         &--active {
             transform: translateX(400%);
         }
-    
+
     }
 
-    .dreams {
+    .about {
         &__box {
             margin: 4em 0;
 
