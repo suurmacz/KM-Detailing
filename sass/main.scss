@@ -193,11 +193,11 @@ a:hover {
         flex-direction: column;
 
 
-        &__text {
+        &-text {
             position: absolute;
             font-size: 2.2rem;
             font-weight: 600;
-            top: 0;
+            top: 110%;
             left: 0;
             margin: 0 auto;
             z-index: 6;
