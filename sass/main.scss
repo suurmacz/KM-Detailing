@@ -333,6 +333,7 @@ hr {
         padding: 1em;
         color: $pure-white;
         justify-content:space-around;
+
     }
 
     &-link:first-child {
@@ -367,8 +368,9 @@ hr {
 }
 
 .google-maps-frame {
-    min-width: 400px;
+    min-width: 300px;
     max-width: 50%;
+    overflow: hidden;
 }
 
 .footer__adress {
