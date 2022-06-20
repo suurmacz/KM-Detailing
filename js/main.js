@@ -12,6 +12,8 @@ const handleNav = () => {
     })
 }
 
+navBtn.addEventListener('click', handleNav)
+
 // FOR GALLERY SCRIPT 
 
 $('.portfolio-menu ul li').click(function(){
@@ -36,4 +38,3 @@ gallery : {
 
 // ////
 
-navBtn.addEventListener('click', handleNav)
