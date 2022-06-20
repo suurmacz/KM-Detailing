@@ -1,4 +1,4 @@
 # KM-Detailing
 
 
-First commercial website for a Deataling firm. 
+First commercial website for a Detailing firm. 
