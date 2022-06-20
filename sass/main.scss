@@ -387,8 +387,18 @@ hr {
 
 // Gallery subpage // 
 
+.gallery-body {
+    background-image: $black-gradient-solid;
+}
+
+.gallery-bgc {
+    background-color: $main-color;
+    width: 100%;
+}
+
 .portfolio-menu{
 	text-align:center;
+    background-image: $black-gradient-solid;
 }
 .portfolio-menu ul li{
 	display:inline-block;
@@ -401,6 +411,7 @@ hr {
 	-ms-transition:all 05s ease;
 	-o-transition:all 05s ease;
 	transition:all .5s ease;
+    color: $pure-white;
 }
 
 
