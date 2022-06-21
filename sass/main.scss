@@ -183,7 +183,7 @@ a:hover {
         z-index: -1;
         opacity: 1;
     }
-    
+
 
     &__block {
         position: relative;
@@ -191,6 +191,14 @@ a:hover {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
+
+        &-img {
+            border-radius: 50%;
+            -webkit-box-shadow: 0px 0px 100px 0px rgba(22, 26, 36, 1);
+            -moz-box-shadow: 0px 0px 100px 0px rgb(255, 255, 255);
+            box-shadow: 0px 0px 100px 0px rgb(255, 255, 255);
+        }
 
 
         &-text {
@@ -397,29 +405,30 @@ hr {
     width: 100%;
 }
 
-.portfolio-menu{
-	text-align:center;
+.portfolio-menu {
+    text-align: center;
     background-image: $black-gradient-solid;
 }
-.portfolio-menu ul li{
-	display:inline-block;
-	margin:0;
-	list-style:none;
-	padding:5px 5px;
-	cursor:pointer;
-	-webkit-transition:all 05s ease;
-	-moz-transition:all 05s ease;
-	-ms-transition:all 05s ease;
-	-o-transition:all 05s ease;
-	transition:all .5s ease;
+
+.portfolio-menu ul li {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    -webkit-transition: all 05s ease;
+    -moz-transition: all 05s ease;
+    -ms-transition: all 05s ease;
+    -o-transition: all 05s ease;
+    transition: all .5s ease;
     color: $pure-white;
 }
 
 
-.portfolio-item .item{
-	/*width:303px;*/
-	float:left;
-	margin-bottom:5px;
+.portfolio-item .item {
+    /*width:303px;*/
+    float: left;
+    margin-bottom: 5px;
 }
 
 .gallery__title {
