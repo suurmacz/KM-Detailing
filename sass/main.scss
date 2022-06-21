@@ -269,7 +269,7 @@ main {
 .hero-img {
     position: relative;
     padding: 20em 2em;
-    @include heroImages('./img/mainphoto_640.jpg');
+    background: linear-gradient(-45deg, rgba(136, 136, 136, 0.7), rgba(1, 2, 2, 0.7)), url(https://picsum.photos/id/892/200/300) center center / cover no-repeat;
     text-align: center;
     overflow: hidden;
     z-index: 5;
