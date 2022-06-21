@@ -389,6 +389,7 @@ hr {
 
 .gallery-body {
     background-image: $black-gradient-solid;
+    text-decoration: none;
 }
 
 .gallery-bgc {
@@ -404,7 +405,7 @@ hr {
 	display:inline-block;
 	margin:0;
 	list-style:none;
-	padding:10px 15px;
+	padding:5px 5px;
 	cursor:pointer;
 	-webkit-transition:all 05s ease;
 	-moz-transition:all 05s ease;
@@ -418,7 +419,11 @@ hr {
 .portfolio-item .item{
 	/*width:303px;*/
 	float:left;
-	margin-bottom:10px;
+	margin-bottom:5px;
+}
+
+.gallery__title {
+    color: $pure-white;
 }
 
 
