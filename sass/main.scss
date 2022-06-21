@@ -262,6 +262,17 @@ main {
     }
 }
 
+.whyus {
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        font-size: 3.2rem;
+    }
+
+}
 
 
 // HERO IMAGE
@@ -436,6 +447,18 @@ hr {
 }
 
 
+// PLACE FOR OFFER SUBPAGE
+
+.empty {
+    width: 100%;
+    height: 300vh;
+    background-color: $dark;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
 // ===============================
 // MEDIA
 // ===============================
@@ -510,8 +533,16 @@ hr {
         }
     }
 
+    .h-100 {
+        height: 50vh !important;
+    }
+
     .hero-img {
-        @include heroImages('./img/herocar_1920.jpg');
+        background: linear-gradient(-45deg, rgba(136, 136, 136, 0.7), rgba(1, 2, 2, 0.7)), url(https://picsum.photos/id/892/1200/800);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 45vh;
     }
 
     .carousel {
@@ -520,6 +551,10 @@ hr {
         &__text {
             font-size: 2.2rem;
         }
+    }
+
+    .container .h-100 {
+        height: 45vh;
     }
 
 }
@@ -593,6 +628,10 @@ hr {
         .slide {
             width: 60%;
         }
+    }
+
+    .whyus__title {
+        font-size: 3.8rem;
     }
 
 
