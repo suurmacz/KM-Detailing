@@ -569,8 +569,9 @@ hr {
     .header {
 
         &__block-img {
-            width: 150%;
-            margin: 1rem;
+            width: 120%;
+            margin-top: .2em;
+            padding-bottom: .1em;
         }
 
         &__heading {
