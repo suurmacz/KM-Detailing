@@ -2,106 +2,120 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KM Detailing</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/af9225b973.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/main.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KM Detailing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/af9225b973.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
-    <button class="burger-btn">
-        <div class="burger-btn__box">
-            <div class="burger-btn__bars"></div>
-        </div>
-    </button>
+  <button class="burger-btn">
+    <div class="burger-btn__box">
+      <div class="burger-btn__bars"></div>
+    </div>
+  </button>
 
-    <div class="media__container">
-        <a target="_blank" href="https://www.instagram.com/mankiewiczdetailing" class="media__link"><i
-                class="fa-brands fa-instagram"></i></a>
-        <a target="_blank" href="https://www.facebook.com/MankiewiczDetailing" class="media__link"><i
-                class="fa-brands fa-facebook-square"></i></a>
+  <div class="media__container">
+    <a target="_blank" href="https://www.instagram.com/mankiewiczdetailing" class="media__link"><i
+        class="fa-brands fa-instagram"></i></a>
+    <a target="_blank" href="https://www.facebook.com/MankiewiczDetailing" class="media__link"><i
+        class="fa-brands fa-facebook-square"></i></a>
+  </div>
+
+  <nav class="nav">
+    <div class="nav__items">
+      <a href="./index.html" class="nav__item">Strona główna</a>
+      <a href="#uslugi" class="nav__item">Oferta</a>
+      <a href="./gallery.html" class="nav__item">Galeria</a>
+      <a href="#kontakt" class="nav__item">Kontakt</a>
+    </div>
+  </nav>
+
+
+  <!-- OFFER SECTION -->
+  <div class="wrapper-offer">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/herocar_640.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/gallery/clean8.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/offer2_1280.jpg.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer" id="kontakt">
+
+    <div class="footer__boxes">
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.0334881050403!2d19.35026591571616!3d53.50359718001224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471d397c089fae93%3A0x70a420dcb8db340e!2sLipowa%2027%2C%2013-340%20Biskupiec!5e0!3m2!1spl!2spl!4v1655242689221!5m2!1spl!2spl"
+        width="90%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" class="google-maps-frame"></iframe>
+
+
+      <!-- /////////////////// -->
+    </div>
+    <div class="footer__adress">
+      <div class="footer__text">
+        <i class="fa-solid fa-location-dot contact-icons"></i>
+        <h5 class="footer__text-contact">
+          ul. Polna 123 <br>
+          12-223 Biskupiec
+        </h5>
+        <i class="fa-solid fa-door-open contact-icons"></i>
+        <h5 class="footer__text-contact">
+          Pon-Pt: 8:00 - 16:00 <br>
+          Sobota: 8:00 - 12:00
+        </h5>
+        <i class="fa-solid fa-phone contact-icons"></i>
+        <h5 class="footer__text-contact">
+          tel: 123 454 789 <br>
+          email: biuro@kmdetailing.pl
+        </h5>
+      </div>
+      <div class="footer__box">
+        <a target="_blank"
+          href="https://www.google.com/maps/dir//KM+Detailing,+Lipowa+27,+13-340+Biskupiec/@53.5022866,19.3352103,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x471d395c8abba33f:0x2652e44d3e0a7ec5!2m2!1d19.3525178!2d53.5036077"
+          class="footer__box-link">
+          <i class="fa-solid fa-map-location-dot"></i>
+          <p class="footer__box-mapinfo">Wyznacz trasę</p>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/mankiewiczdetailing" class="footer__box-link">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/MankiewiczDetailing" class="footer__box-link">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+      </div>
+    </div>
     </div>
 
-    <nav class="nav">
-        <div class="nav__items">
-            <a href="./index.html" class="nav__item">Strona główna</a>
-            <a href="#uslugi" class="nav__item">Oferta</a>
-            <a href="./gallery.html" class="nav__item">Galeria</a>
-            <a href="#kontakt" class="nav__item">Kontakt</a>
-        </div>
-    </nav>
+
+    <hr>
+    <p class="footer__copy"> &copy; <span class="footer__year"></span> KM Detailing </p>
+  </footer>
 
 
-    <!-- OFFER SECTION -->
-
-
-
-    <footer class="footer" id="kontakt">
-
-        <div class="footer__boxes">
-
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.0334881050403!2d19.35026591571616!3d53.50359718001224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471d397c089fae93%3A0x70a420dcb8db340e!2sLipowa%2027%2C%2013-340%20Biskupiec!5e0!3m2!1spl!2spl!4v1655242689221!5m2!1spl!2spl"
-                width="90%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" class="google-maps-frame"></iframe>
-
-
-            <!-- /////////////////// -->
-        </div>
-        <div class="footer__adress">
-            <div class="footer__text">
-                <i class="fa-solid fa-location-dot contact-icons"></i>
-                <h5 class="footer__text-contact">
-                    ul. Polna 123 <br>
-                    12-223 Biskupiec
-                </h5>
-                <i class="fa-solid fa-door-open contact-icons"></i>
-                <h5 class="footer__text-contact">
-                    Pon-Pt: 8:00 - 16:00 <br>
-                    Sobota: 8:00 - 12:00
-                </h5>
-                <i class="fa-solid fa-phone contact-icons"></i>
-                <h5 class="footer__text-contact">
-                    tel: 123 454 789 <br>
-                    email: biuro@kmdetailing.pl
-                </h5>
-            </div>
-            <div class="footer__box">
-                <a target="_blank"
-                    href="https://www.google.com/maps/dir//KM+Detailing,+Lipowa+27,+13-340+Biskupiec/@53.5022866,19.3352103,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x471d395c8abba33f:0x2652e44d3e0a7ec5!2m2!1d19.3525178!2d53.5036077"
-                    class="footer__box-link">
-                    <i class="fa-solid fa-map-location-dot"></i>
-                    <p class="footer__box-mapinfo">Wyznacz trasę</p>
-                </a>
-                <a target="_blank" href="https://www.instagram.com/mankiewiczdetailing" class="footer__box-link">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a target="_blank" href="https://www.facebook.com/MankiewiczDetailing" class="footer__box-link">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-            </div>
-        </div>
-        </div>
-
-
-        <hr>
-        <p class="footer__copy"> &copy; <span class="footer__year"></span> KM Detailing </p>
-    </footer>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-    </script>
-    <script src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
