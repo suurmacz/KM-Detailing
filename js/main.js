@@ -38,5 +38,3 @@ gallery : {
 
 // ////
 
-// tryin do first carousel by my self
-
