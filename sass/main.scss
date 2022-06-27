@@ -447,6 +447,25 @@ hr {
     background-color: $black;
     overflow: hidden;
 
+    &__logo {
+        position: relative;
+        display: flex;
+
+        &-link {
+            position: absolute;
+            display: block;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 10%);
+            z-index: 12;
+
+            &-img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+
     &__bgimage {
         position: relative;
         display: flex;
