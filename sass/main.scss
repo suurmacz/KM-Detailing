@@ -606,6 +606,10 @@ hr {
         background-size: cover;
         background-position: center;
         width: 60vw;
+
+        &:hover {
+            transform:scale(1.1);
+        }
     }
 
     .headerOffers__bgimage-title {
