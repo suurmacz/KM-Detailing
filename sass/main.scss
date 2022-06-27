@@ -293,7 +293,7 @@ main {
 
 .carousel {
     padding: 6em 2em;
-    background-color: $dark;
+    background-image: $black-gradient-solid;
 
     &__heading {
         display: flex;
@@ -491,8 +491,14 @@ hr {
 
 }
 
-.section-accordion {
-        background-image: $dark-gradient-reverse;
+
+.prices-edit {
+    font-size: 2rem;
+    color: $gold;
+
+    &-txt {
+        font-size: 1.2rem;
+    }
 }
 
 // ===============================
