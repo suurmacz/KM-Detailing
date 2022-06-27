@@ -487,6 +487,12 @@ hr {
         }
 
     }
+
+
+}
+
+.section-accordion {
+        background-color: $black;
 }
 
 // ===============================
@@ -627,12 +633,12 @@ hr {
         width: 60vw;
 
         &:hover {
-            transform:scale(1.1);
+            transform: scale(1.1);
         }
     }
 
     .headerOffers__bgimage-title {
-        transform: translate(50%,50%);
+        transform: translate(50%, 50%);
         margin-left: 1em;
     }
 
