@@ -443,6 +443,32 @@ hr {
 
 // PLACE FOR OFFER SUBPAGE
 
+.headerOffers {
+    background-color: $black;
+    overflow: hidden;
+
+    &__bgimage {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        &-image {
+            background-position: center;
+            width: 100vw;
+            height: 50vh;
+            opacity: .2;
+        }
+
+        &-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 6rem;
+            transform: translate(-50%, -50%);
+        }
+
+    }
+}
 
 // ===============================
 // MEDIA
@@ -503,7 +529,7 @@ hr {
         }
     }
 
-// ABOUT SECTION
+    // ABOUT SECTION
 
     .about {
         display: flex;
@@ -523,7 +549,7 @@ hr {
         }
     }
 
-    .about__picture{
+    .about__picture {
         display: flex;
 
         &-img {
@@ -539,7 +565,7 @@ hr {
 
 
 
-// HERO IMG SECTION
+    // HERO IMG SECTION
 
     .hero-img {
         padding: 30em 2em;
@@ -575,7 +601,22 @@ hr {
         height: 45vh;
     }
 
+    .headerOffers__bgimage-image {
+        background-image: url('/img/gallery/inside3.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 60vw;
+    }
+
+    .headerOffers__bgimage-title {
+        transform: translate(50%,50%);
+        margin-left: 1em;
+    }
+
 }
+
+
+
 
 @media(min-width: 992px) {
 
