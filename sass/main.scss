@@ -409,13 +409,12 @@ hr {
 // Gallery subpage // 
 
 .gallery-body {
-    background-image: $black-gradient-solid;
     text-decoration: none;
 }
 
 .gallery-bgc {
     background-color: $main-color;
-    width: 100%;
+    max-width: 1960px;
 }
 
 .portfolio-menu {
