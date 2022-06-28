@@ -572,6 +572,7 @@ hr {
     .about {
         display: flex;
         flex-direction: row;
+        padding: 3em;
     }
 
     .about__heading {
@@ -591,13 +592,13 @@ hr {
         display: flex;
 
         &-img {
-            width: 70%;
+            width: 60%;
             max-width: 800px;
-            height: 50vh;
+            height: 60vh;
             justify-content: center;
             align-items: center;
             margin: 0 auto;
-            padding-top: 3em;
+            padding-top: 3em 0;
         }
     }
 
@@ -739,6 +740,10 @@ hr {
 
     .whyus__title {
         font-size: 3.8rem;
+    }
+
+    .section__opinions-resize {
+        padding: 3em;
     }
 
 
