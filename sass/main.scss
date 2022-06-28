@@ -301,6 +301,7 @@ main {
     padding: 6em 2em;
     // background-image: $black-gradient-solid;
     background-color: $black;
+    opacity: 1;
 
     &__heading {
         display: flex;
@@ -612,6 +613,7 @@ hr {
 
         &__text {
             font-size: 2.2rem;
+            padding-bottom: 4em;
         }
     }
 
