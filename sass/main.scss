@@ -201,6 +201,12 @@ a:hover {
             margin: 0 auto;
             z-index: 6;
         }
+
+        &-img {
+            padding-top: 4em;
+            width: 80%;
+            height: 100%;
+        }
     }
 
 
@@ -293,7 +299,8 @@ main {
 
 .carousel {
     padding: 6em 2em;
-    background-image: $black-gradient-solid;
+    // background-image: $black-gradient-solid;
+    background-color: $black;
 
     &__heading {
         display: flex;
