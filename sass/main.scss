@@ -154,8 +154,29 @@ a:hover {
 
 // HEADER
 
+// .carousel-item-one {
+//     background-image: url(../img/gallery/headerslider1.jpg);
+// }
+// .carousel-item-two {
+//     background-image: url(../img/gallery/headerslider2.jpg);
+// }
+// .carousel-item-three {
+//     background-image: url(../img/gallery/headerslider3.jpg);
+// }
+
+// .carousel-item {
+//     position: relative;
+//     height: 400px;
+//     background-position: center;
+//     background-size: cover;
+// }
+
+
 .header {
     position: relative;
+    background-image: linear-gradient(90deg, rgb(113, 114, 114) 7%, rgb(7, 6, 6) 58%), url(./img/gallery/headerslider3.jpg);
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,18 +191,6 @@ a:hover {
     z-index: -2;
     overflow: hidden;
 
-    &.carousel-header-slider {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        z-index: -1;
-        opacity: 1;
-    }
 
 
     &__block {
