@@ -421,6 +421,15 @@ hr {
 }
 
 .gallery-bgc {
+    background-image: url(/img/gallery/headerslider4.jpg);
+    max-width: 1960px;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-gallery {
     background-color: $main-color;
     max-width: 1960px;
 }
