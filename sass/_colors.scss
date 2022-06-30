@@ -5,8 +5,8 @@ $black: black;
 $gold: goldenrod;
 
 $light-blue-gradient: linear-gradient(45deg, rgba(8, 206, 255, 0.75), rgba(8, 24, 255, 0.75));
-$dark-gradient: linear-gradient(45deg, rgba(46, 46, 46, 1) 17%, rgba(22, 26, 36, 1) 68%);
-$black-gradient-solid: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(59, 59, 77) 100%); 
+$dark-gradient: linear-gradient(45deg, rgba(46, 46, 46, .75) 17%, rgba(22, 26, 36, .75) 68%);
+$black-gradient-solid: radial-gradient(circle, rgb(0, 0, 0.25) 0%, rgba(59, 59, 77, 0.25) 80%); 
 $dark-gradient-reverse: linear-gradient(90deg, rgb(113, 114, 114) 17%, rgb(7, 6, 6) 68%);
 
 

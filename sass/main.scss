@@ -174,7 +174,7 @@ a:hover {
 
 .header {
     position: relative;
-    background-image: linear-gradient(90deg, rgb(113, 114, 114) 7%, rgb(7, 6, 6) 58%), url(./img/gallery/headerslider3.jpg);
+    background-image: $dark-gradient ,url(/img/gallery/headerslider3.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -188,7 +188,7 @@ a:hover {
     color: $pure-white;
     background-attachment: scroll;
     background-color: black;
-    z-index: -2;
+    // z-index: -2;
     overflow: hidden;
 
 
@@ -457,6 +457,7 @@ hr {
 
 
 // PLACE FOR OFFER SUBPAGE
+
 
 .headerOffers {
     background-color: $black;
