@@ -307,7 +307,6 @@ main {
 
 .carousel {
     padding: 6em 2em;
-    // background-image: $black-gradient-solid;
     background-color: $black;
     opacity: 1;
 
@@ -428,6 +427,10 @@ hr {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    &:hover{
+        transform:scale(1.03);
+    }
 }
 
 .container-gallery {
@@ -668,7 +671,7 @@ hr {
         background-image: url('/img/gallery/inside3.jpg');
         background-size: cover;
         background-position: center;
-        width: 60vw;
+        width: 100vw;
 
         &:hover {
             transform: scale(1.1);
@@ -676,8 +679,8 @@ hr {
     }
 
     .headerOffers__bgimage-title {
-        transform: translate(50%, 50%);
-        margin-left: 1em;
+        transform: translate(-50%, -50%);
+        // margin-left: 1em;
     }
 
 }
@@ -768,6 +771,14 @@ hr {
 
     .section__opinions-resize {
         padding: 3em;
+    }
+
+    .gallery-name-text {
+        font-size: 4em;
+    }
+
+    .about__picture-img{
+        padding-bottom: 3em;
     }
 
 
