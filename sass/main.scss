@@ -193,7 +193,7 @@ a:hover {
         }
 
         &-img {
-            padding-top: 1em;
+            padding-top: 3em;
             width: 80%;
             height: 100%;
             padding-bottom: 4em;
@@ -578,6 +578,10 @@ hr {
 
         &__btn {
             font-size: 1.6rem;
+        }
+
+        &__block-img {
+            padding-top: 1em;
         }
     }
 
