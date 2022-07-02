@@ -154,23 +154,6 @@ a:hover {
 
 // HEADER
 
-// .carousel-item-one {
-//     background-image: url(../img/gallery/headerslider1.jpg);
-// }
-// .carousel-item-two {
-//     background-image: url(../img/gallery/headerslider2.jpg);
-// }
-// .carousel-item-three {
-//     background-image: url(../img/gallery/headerslider3.jpg);
-// }
-
-// .carousel-item {
-//     position: relative;
-//     height: 400px;
-//     background-position: center;
-//     background-size: cover;
-// }
-
 
 .header {
     position: relative;
@@ -181,7 +164,6 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2em;
     height: 100vh;
     text-align: center;
     letter-spacing: 2px;
@@ -211,9 +193,10 @@ a:hover {
         }
 
         &-img {
-            padding-top: 4em;
+            padding-top: 1em;
             width: 80%;
             height: 100%;
+            padding-bottom: 4em;
         }
     }
 
@@ -700,7 +683,7 @@ hr {
         &__block-img {
             width: 120%;
             margin-top: .2em;
-            padding-bottom: .1em;
+            padding-bottom: 3.1em;
         }
 
         &__heading {

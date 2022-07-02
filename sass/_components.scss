@@ -404,12 +404,12 @@ a:hover {
 // ARROWS SCROLL DOWN /////////
 
   
-$base: 0.6rem;
+$base: 0.7rem;
 
 .arrows {
  display: flex;
  justify-content: center;
- align-items: center;
+ align-items: flex-start;
  width: 100%;
  height: 100vh;
 }
