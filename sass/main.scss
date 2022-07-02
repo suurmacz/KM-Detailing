@@ -421,7 +421,8 @@ hr {
 }
 
 .gallery-bgc {
-    background-image: url(/img/gallery/headerslider4.jpg);
+    background-image: url(/img/galleryimg.jpg);
+    background-color: #161a24;
     max-width: 1960px;
     height: 50vh;
     background-position: center;
@@ -430,7 +431,7 @@ hr {
 }
 
 .container-gallery {
-    background-color: $main-color;
+    background-image: $dark-gradient;
     max-width: 1960px;
 }
 
@@ -524,6 +525,10 @@ hr {
     &-txt {
         font-size: 1.2rem;
     }
+}
+
+.postcard__img-small {
+    background-image: url(/img/gallery/mergedoffer.jpg);
 }
 
 // ===============================
