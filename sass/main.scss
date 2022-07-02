@@ -303,6 +303,7 @@ main {
     &__text {
         font-size: 2.2rem;
     }
+
 }
 
 
@@ -444,10 +445,14 @@ hr {
 .portfolio-item .item {
     /*width:303px;*/
     float: left;
-    margin-bottom: 5px;
+    // margin-bottom: 5px;
 }
 
 .gallery__title {
+    color: $pure-white;
+}
+
+.popup-btn {
     color: $pure-white;
 }
 
