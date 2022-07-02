@@ -1,4 +1,7 @@
 # KM-Detailing
 
 
-First commercial website for a Detailing firm. 
+First commercial project for a Detailing firm. 
+
+
+Customer design with my methods for performing the required functionality.
