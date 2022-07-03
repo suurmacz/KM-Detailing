@@ -269,7 +269,7 @@ main {
 .hero-img {
     position: relative;
     padding: 20em 2em;
-    background: linear-gradient(-45deg, rgba(136, 136, 136, 0.7), rgba(1, 2, 2, 0.7)), url(/img/pricesheroimg.jpg) center center / cover no-repeat;
+    background: linear-gradient(-45deg, rgba(136, 136, 136, 0.7), rgba(1, 2, 2, 0.7)), url(../img/pricesheroimg.jpg) center center / cover no-repeat;
     text-align: center;
     overflow: hidden;
     z-index: 5;
@@ -409,7 +409,7 @@ hr {
 }
 
 .gallery-bgc {
-    background-image: url(/img/galleryimg.jpg);
+    background-image: url(../img/galleryimg.jpg);
     background-color: #161a24;
     max-width: 1960px;
     height: 50vh;
@@ -425,6 +425,9 @@ hr {
 .container-gallery {
     background-image: $dark-gradient;
     max-width: 1960px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .portfolio-menu {
