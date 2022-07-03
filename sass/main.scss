@@ -157,7 +157,7 @@ a:hover {
 
 .header {
     position: relative;
-    background-image: $dark-gradient ,url(/img/gallery/headerslider3.jpg);
+    background-image:url(../img/heromainimg.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -233,6 +233,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: $dark-gradient;
 
     &-title {
         margin-top: 1em;
@@ -284,6 +285,10 @@ main {
 
 .fa-circle-user {
     font-size: 6rem;
+}
+
+.section__opinions-resize {
+    background-image: $dark-gradient;
 }
 
 // SLIDER GALLERY
@@ -644,7 +649,7 @@ hr {
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-        height: 45vh;
+        height: 100%;
     }
 
     .carousel {
@@ -690,7 +695,7 @@ hr {
     .header {
 
         &__block-img {
-            width: 120%;
+            width: 80%;
             margin-top: .2em;
             padding-bottom: 3.1em;
         }
