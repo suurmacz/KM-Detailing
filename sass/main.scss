@@ -154,53 +154,46 @@ a:hover {
 
 // HEADER //
 
-
 .header {
     position: relative;
-    background-image:url(../img/heromainimg.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
     text-align: center;
     letter-spacing: 2px;
     color: $pure-white;
     background-attachment: scroll;
-    background-color: black;
-    // z-index: -2;
+    z-index: -2;
     overflow: hidden;
-
-
+    background-color: black;
 
     &__block {
         position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        width: 100%;
+        height: 100%;
 
-        &-text {
-            position: absolute;
-            font-size: 2.2rem;
-            font-weight: 600;
-            top: 110%;
-            left: 0;
-            margin: 0 auto;
-            z-index: 6;
+
+        &-video {
+            min-width: 100%;
+            min-height: 100vh;
+            background-position: center;
+            background-size: cover;
         }
 
         &-img {
-            padding-top: 3em;
-            width: 80%;
-            height: 100%;
-            padding-bottom: 4em;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            transform: translate(12.5%, 20%);
+            margin: 0 auto;
+            z-index: 123;
+        }
+
+        &-arrows {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            transform: translate(0%, 40%);
+            z-index: 2231;
         }
     }
-
-
 
     &__btn {
         background: $pure-white;
@@ -214,11 +207,22 @@ a:hover {
         text-decoration: none;
         cursor: pointer;
         text-transform: uppercase;
-    }
 
-    &::before {
-        background-color: $pure-white;
-    }
+        &:hover {
+            border-radius: 8px;
+        }
+    
+    
+        &::before {
+            background-color: $pure-white;
+        }
+    
+
+}
+
+
+
+
 }
 
 // MAIN SECTION // 
@@ -417,8 +421,8 @@ hr {
     background-size: cover;
     background-repeat: no-repeat;
 
-    &:hover{
-        transform:scale(1.03);
+    &:hover {
+        transform: scale(1.03);
     }
 }
 
@@ -579,20 +583,20 @@ hr {
 @media(min-width: 768px) {
 
     .header {
-        &__heading {
-            font-size: 6.6rem;
-        }
-
-        &__text {
-            font-size: 2.2rem;
-        }
-
         &__btn {
             font-size: 1.6rem;
         }
 
         &__block-img {
-            padding-top: 1em;
+            margin-bottom: 5em;
+
+        }
+
+        .logoimg {
+            width: 500px;
+            top: 0%;
+            left: 0%;
+
         }
     }
 
@@ -779,7 +783,7 @@ hr {
         font-size: 4em;
     }
 
-    .about__picture-img{
+    .about__picture-img {
         padding-bottom: 3em;
     }
 
