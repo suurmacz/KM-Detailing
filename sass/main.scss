@@ -179,18 +179,18 @@ a:hover {
 
         &-img {
             position: absolute;
-            top: 0%;
-            left: 0%;
-            transform: translate(12.5%, 20%);
+            left: 50%;
+            top: 40%;
+            transform: translate(-50%, -50%);
             margin: 0 auto;
             z-index: 123;
         }
 
         &-arrows {
             position: absolute;
-            top: 0%;
-            left: 0%;
-            transform: translate(0%, 40%);
+            left: 50%;
+            top: 80%;
+            transform: translate(-50%, -50%);
             z-index: 2231;
         }
     }
@@ -594,9 +594,6 @@ hr {
 
         .logoimg {
             width: 500px;
-            top: 0%;
-            left: 0%;
-
         }
     }
 
@@ -704,14 +701,15 @@ hr {
     .header {
 
         &__block-img {
-            width: 80%;
+            width: 100%;
             margin-top: .2em;
             padding-bottom: 3.1em;
         }
 
-        &__heading {
-            font-size: 8rem;
+        &__block-arrows {
+            top: 70%;
         }
+
     }
 
     .nav {
