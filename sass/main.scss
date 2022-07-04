@@ -273,7 +273,7 @@ main {
 .hero-img {
     position: relative;
     padding: 20em 2em;
-    background: linear-gradient(-45deg, rgba(136, 136, 136, 0.7), rgba(1, 2, 2, 0.7)), url(./img/pricesheroimg.jpg) center center / cover no-repeat;
+    background: linear-gradient(-45deg, rgba(136, 136, 136, 0.7), rgba(1, 2, 2, 0.7)), url(../img/pricesheroimg.jpg) center center / cover no-repeat;
     text-align: center;
     overflow: hidden;
     z-index: 5;
@@ -652,7 +652,7 @@ hr {
     }
 
     .hero-img {
-        background: linear-gradient(-45deg, rgba(136, 136, 136, 0.7), rgba(1, 2, 2, 0.7)), url(./img/pricesheroimg.jpg);
+        background: linear-gradient(-45deg, rgba(136, 136, 136, 0.7), rgba(1, 2, 2, 0.7)), url(../img/pricesheroimg.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
