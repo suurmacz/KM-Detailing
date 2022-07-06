@@ -1,3 +1,5 @@
+
+
 const nav = document.querySelector('.nav');
 const navBtn = document.querySelector('.burger-btn');
 const allNavItems = document.querySelectorAll('.nav__item');
@@ -13,6 +15,8 @@ const handleNav = () => {
 }
 
 navBtn.addEventListener('click', handleNav)
+
+
 
 // FOR GALLERY SCRIPT 
 
